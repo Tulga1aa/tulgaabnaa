@@ -22,6 +22,12 @@ import { Figma } from "../Component/logo/Figma";
 import { Cypress } from "../Component/logo/Cypress";
 import { Storybook } from "../Component/logo/Storybook";
 import { Git } from "../Component/logo/Git";
+import{Experience} from "../Component/Experience"
+import{ Work } from "../Component/Work"
+import { Ubcab } from "../Component/Ubcab"
+import { Toim } from "../Component/Toim"
+import {GetinTouch} from "../Component/GetinTouch"
+
 
 const skills = [
   {
@@ -31,42 +37,42 @@ const skills = [
   },
   {
     id: 2,
-    icon: <Javascript />,
+    icon: <Typescript />,
     name: "Typescript",
   },
   {
     id: 3,
-    icon: <Javascript />,
+    icon: <React />,
     name: "React",
   },
   {
     id: 4,
-    icon: <Javascript />,
+    icon: <Next />,
     name: "Next.js",
   },
   {
     id: 5,
-    icon: <Javascript />,
+    icon: <Node />,
     name: "Node.js",
   },
   {
     id: 6,
-    icon: <Javascript />,
+    icon: <Express />,
     name: "Express.js",
   },
   {
     id: 7,
-    icon: <Javascript />,
+    icon: <Next />,
     name: "Next.js",
   },
   {
     id: 8,
-    icon: <Javascript />,
+    icon: <Socket />,
     name: "Socket.io",
   },
   {
     id: 9,
-    icon: <Javascript />,
+    icon: <PostgreSQL />,
     name: "PostgreSQL",
   },
   {
@@ -129,6 +135,18 @@ const FigmaPageMain = () => {
           );
         })}
       </div>
+      <div>
+        <Experience/>
+      </div>
+      <div>
+        <Work/>
+      </div>
+      <div>
+        <Ubcab/>
+        <Toim/>
+        <GetinTouch/>
+      </div>
+     
     </div>
   );
 };

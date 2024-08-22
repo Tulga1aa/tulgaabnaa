@@ -4,4 +4,4 @@ export const MongoDB = () => {
       <img className="w-16 h-16" src="/MongoDB.svg" alt="MongoDBLogo" />
     </div>
   );
-};
+};  
