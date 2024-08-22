@@ -9,7 +9,7 @@ export const Location = () => {
         <img src="/Green.png" />
         <p>Available for new projects</p>
       </div>
-      <div className="mtclear-10">
+      <div className="mt-10">
         <img src="/ftphoto.png" />
       </div>
     </div>
