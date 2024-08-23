@@ -81,45 +81,43 @@ const skills = [
   },
   {
     id: 11,
-    icon: <Javascript />,
+    icon: <SassScss />,
     name: "Sass/Scss",
   },
   {
     id: 12,
-    icon: <Javascript />,
+    icon: <Tailwindcss />,
     name: "Tailwindcss",
   },
   {
     id: 13,
-    icon: <Javascript />,
+    icon: <Figma />,
     name: "Figma",
   },
   {
     id: 14,
-    icon: <Javascript />,
+    icon: <Cypress />,
     name: "Cypress",
   },
   {
     id: 15,
-    icon: <Javascript />,
+    icon: <Storybook />,
     name: "Storybook",
   },
   {
     id: 16,
-    icon: <Javascript />,
+    icon: <Git />,
     name: "Git",
   },
 ];
 
 const FigmaPageMain = () => {
   return (
-    <div className="container mx-auto">
-      <div>
-        <Header />
-        <Zurag />
-        <TExt />
-        <Location />
-      </div>
+    <div>
+      <Header />
+      <Zurag />
+      <TExt />
+      <Location />
       <div>
         <About />
         <Bodytext />
