@@ -22,12 +22,11 @@ import { Figma } from "../Component/logo/Figma";
 import { Cypress } from "../Component/logo/Cypress";
 import { Storybook } from "../Component/logo/Storybook";
 import { Git } from "../Component/logo/Git";
-import{Experience} from "../Component/Experience"
-import{ Work } from "../Component/Work"
-import { Ubcab } from "../Component/Ubcab"
-import { Toim } from "../Component/Toim"
-import {GetinTouch} from "../Component/GetinTouch"
-
+import { Experience } from "../Component/Experience";
+import { Work } from "../Component/Work";
+import { Ubcab } from "../Component/Ubcab";
+import { Toim } from "../Component/Toim";
+import { GetinTouch } from "../Component/GetinTouch";
 
 const skills = [
   {
@@ -62,8 +61,8 @@ const skills = [
   },
   {
     id: 7,
-    icon: <Next />,
-    name: "Next.js",
+    icon: <Nest />,
+    name: "Nest.js",
   },
   {
     id: 8,
@@ -77,7 +76,7 @@ const skills = [
   },
   {
     id: 10,
-    icon: <Javascript />,
+    icon: <MongoDB />,
     name: "MongoDB",
   },
   {
@@ -136,17 +135,16 @@ const FigmaPageMain = () => {
         })}
       </div>
       <div>
-        <Experience/>
+        <Experience />
       </div>
       <div>
-        <Work/>
+        <Work />
       </div>
       <div>
-        <Ubcab/>
-        <Toim/>
-        <GetinTouch/>
+        <Ubcab />
+        <Toim />
+        <GetinTouch />
       </div>
-     
     </div>
   );
 };
